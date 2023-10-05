@@ -1,0 +1,19 @@
+{
+  "name": "messageme",
+  "version": "1.0.0",
+  "description": "Runtime message app",
+  "main": "index.js",
+  "scripts": {
+    "nilu": "nodemon server"
+  },
+  "author": "Nilkantha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

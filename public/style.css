@@ -1,0 +1,200 @@
+.nav-bar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.link{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.links{
+    padding-right: 50px;
+
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    color:green;
+    font-weight: 200;
+}
+a:hover{
+    color:red;
+}
+.message-body{
+    padding: 15px;
+    background-color: rgb(12, 236, 31);
+    max-width: 900px;
+    margin: auto;
+    border-top-left-radius: 20px;
+ 
+  
+    height: 550px;
+    overflow-y: auto;
+}
+.message{
+  
+     
+    padding: 6px;
+    margin: 5px; 
+}
+.send{
+    float: right;
+    clear: both;
+}
+.recieve{
+    float: left;
+    clear: both;
+}
+.center{
+   font-size: large;
+    float:left;
+    padding-top: 15px;
+    padding-left: calc(40%);
+    clear:both;
+}
+.left{
+    
+float: left;
+clear: both;
+}
+.right{
+  
+    float:right;
+    clear: both;
+}
+.textarea{
+    display: flex;
+   
+}
+.msg{
+    max-width: 930px;
+    margin: auto;
+}
+#snd{
+    height: 35px; 
+    border-bottom-right-radius: 20px;
+    width: 57px;
+    background-color: rgb(12, 236, 31);
+    border: rgb(107, 205, 50);
+    color: white;
+}
+#snd:hover{
+    background-color: rgb(22, 185, 0);
+}
+#txt{
+    width: 867px;
+     height: 31px;
+     border: 1px solid rgb(12, 236, 31);
+     border-bottom-left-radius: 20px;
+}
+.name{
+    background-color:rgb(12, 236, 31); ;
+}
+h4{
+    margin-bottom: -10px; 
+    margin-top:5px ;
+}
+.send{
+    background-color: rgb(29, 71, 5);
+    color: chartreuse;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+   max-width: 300px;
+    
+}
+.recieve{
+    background-color: rgb(1, 71, 36);
+    color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    max-width: 300px;
+    
+}
+
+@media(max-width:380px){
+   .message-body{
+       width: 393px;
+       height: 600px;
+   }
+   .recieve{
+    background-color: black;
+    color: chartreuse;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    width: 200px;
+   }
+   .send{
+    background-color: rgb(29, 71, 5);
+    color: chartreuse;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    width: 200px;
+   }
+    #txt{
+        
+        width:360px ;
+    }
+
+
+}
+
+ .bodyColor{
+     background-image: linear-gradient(black,blue);
+ }
+ 
+.a_D{
+    color:rgb(255, 255, 255);
+ 
+}
+.a_D:hover{
+    color:rgb(0, 240, 0);
+}
+.message-body_D{
+    background-color: rgb(0, 0, 0);
+}
+.snd_D{
+    background-image:linear-gradient(black,blue);
+    color:white;
+    cursor: pointer;
+}
+
+@media(max-width:948px){
+    .message-body{
+        width: 393px;
+        height: 500px;
+    }
+    .recieve{
+     background-color: black;
+     color: chartreuse;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     padding: 10px;
+     /* width: 100px; */
+    }
+    .send{
+     background-color: rgb(29, 71, 5);
+     color: chartreuse;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     padding: 10px;
+     /* width: 100px; */
+    }
+     #txt{
+         
+         width:360px ;
+         
+     }
+ 
+}
